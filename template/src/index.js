@@ -1,11 +1,11 @@
-import <#=name#>Plugin from './components/<#=name#>.vue'
+import {{name}}Plugin from './components/{{name}}.vue'
 
-<#=name#>Plugin.install = function (Vue) {
-  Vue.component(<#=name#>Plugin.name, <#=name#>Plugin)
+{{name}}Plugin.install = function (Vue) {
+  Vue.component({{name}}Plugin.name, {{name}}Plugin)
 }
 
 if (window.Vue && window.Vue.use) {
-  window.Vue.use(<#=name#>Plugin)
+  window.Vue.use({{name}}Plugin)
 }
 
-export default <#=name#>Plugin
+export default {{name}}Plugin
