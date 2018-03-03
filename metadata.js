@@ -4,14 +4,14 @@ module.exports = {
             when: 'isNotTest',
             type: 'string',
             required: true,
-            message: 'Project name',
+            message: 'Plugin name',
         },
         description: {
             when: 'isNotTest',
             type: 'string',
             required: false,
-            message: 'Project description',
-            default: 'A Vue.js project',
+            message: 'Plugin description',
+            default: 'A Vue.js Plugin',
         },
         author: {
             when: 'isNotTest',
