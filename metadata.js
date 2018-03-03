@@ -11,15 +11,15 @@ module.exports = {
             message: 'Plugin description',
             default: 'A Vue.js Plugin',
         },
-        author: {
-            type: 'string',
-            message: 'Author',
-        },
         version: {
             type: 'string',
             required: false,
             message: 'Plugin version',
             default: '1.0.0',
+        },
+        author: {
+            type: 'string',
+            message: 'Author',
         },
         autoInstall: {
             type: 'list',
