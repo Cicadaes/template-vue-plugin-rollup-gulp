@@ -7,7 +7,7 @@ new window.Vue({
     template: '<{{name}} :text="text"></{{name}}>',
     data() {
         return {
-            text: 'Hellow {{name}}'
+            text: '{{name}}'
         }
     }
 })
