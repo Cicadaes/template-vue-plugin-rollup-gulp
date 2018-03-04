@@ -15,7 +15,7 @@ gulp.task('build:javascript', function () {
   return rollup({
     input: config.bundle.entry,
     format: 'umd',
-    name: '{{name}}',
+    name: '<@name@>',
     cache: rollupCache,
     plugins: [
       vue({

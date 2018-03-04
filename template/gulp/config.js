@@ -7,14 +7,14 @@ module.exports = {
       './src/**/*.js',
       './src/**/*.vue'
     ],
-    destFileName: '{{name}}.js',
+    destFileName: '<@name@>.js',
     dest: './dev'
   },
   inject: {
     target: './dev/index.html',
     sources: [
-      './dev/{{name}}.js',
-      './dev/{{name}}.css'
+      './dev/<@name@>.js',
+      './dev/<@name@>.css'
     ],
     dest: './dev'
   },
@@ -27,7 +27,7 @@ module.exports = {
     ]
   },
   style: {
-    entry: './src/stylus/{{name}}.styl',
+    entry: './src/stylus/<@name@>.styl',
     files: [
       './src/stylus/**/*.styl'
     ],
