@@ -1,7 +1,7 @@
-import {=name}}Plugin from './components/{{name=}.vue'
+import {=name=}Plugin from './components/{=name=}.vue'
 
 {=name=}Plugin.install = function (Vue) {
-  Vue.component({=name}}Plugin.name, {{name=}Plugin)
+  Vue.component({=name=}Plugin.name, {=name=}Plugin)
 }
 
 if (window.Vue && window.Vue.use) {
