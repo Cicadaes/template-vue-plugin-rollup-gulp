@@ -11,7 +11,8 @@
   "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp dev"
+    "start": "gulp dev",
+    "build": "gulp"
   },
   "author": "{= author =}",
   "license": "ISC",
